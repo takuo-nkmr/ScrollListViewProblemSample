@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ScrollListViewProblemSample"
+             x:Class="ScrollListViewProblemSample.ScrollListViewProblemSample">
+    <MasterDetailPage.Master>
+        <ContentPage Title="マスタページ">
+            <StackLayout HorizontalOptions="FillAndExpand">
+                <Label Text="Dummy"/>
+                <Label Text="Dummy"/>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <local:ItemList />
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
